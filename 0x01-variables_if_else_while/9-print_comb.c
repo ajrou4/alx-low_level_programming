@@ -12,17 +12,19 @@
  */
 int main(void)
 {
-	int n;
-	for (n = 0; n < 10; n++)
+	int num;
+
+	for (num = 0; num <= 9; num++)
 	{
-		putchar((n % 10) + '0')
-		if (n == 0)
-		{
+		putchar((num % 10) + '0');
+		if (num == 9)
 			continue;
-		}
+		
 		putchar(',');
 		putchar(' ');
 	}
+
 	putchar('\n');
+
 	return (0);
 }
