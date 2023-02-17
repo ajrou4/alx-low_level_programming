@@ -15,3 +15,4 @@ int main(void)
 	printf("%s a float: %d byte(s)\n", s, sizeof(float));
 	return (0);
 }
+
